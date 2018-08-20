@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*
+** CSS Document *
+** @name css33d翻转效果
+------------------------------------------------------
+** @autho hgy@gemdesign.cn Mr.Hu
+------------------------------------------------------
+** @autho 2014-09-09 
+------------------------------------------------------
+*/
+.cards{width:100%;position: relative;z-index: 2;padding-top:1em;padding-bottom:4em;text-align:center; overflow:hidden}
+.cards li {
+	width:235px;
+	height: 235px;
+	padding:25px;
+	float:left;
+	position: relative;
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	-o-perspective: 1000;
+	perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+
+.card_text{width:100%;}
+
+.card_text h3{font-size:1em;font-weight:normal}
+.card_text p{font-size:.875em;color:#999}
+
+.cards li .flip-front {width: 235px;}
+.cards li .flip-front img{width:100%;max-width:100%}
+
+.cards li .flip-back {
+	width: 100%;
+	position: absolute;top: 0;left: 0;
+	z-index: 0;
+	background: none;
+	display: none;
+	padding-top: 75px;
+	opacity: 0
+}
+.cards li .flip-back p {
+	color:#767676;
+	font-size: 0.85em;
+	width: 75%;
+	padding-top:20px;
+	margin: 0 auto;
+	text-align: center !important
+}
+.cards li .flip-back p a{color:#767676}
+
+a.more{width:121px; display:block;padding-top:30px; margin:0 auto;cursor:pointer}
+.cards li .flip-back p.more_box{}
+.cards li .flip-back p.more_box a{font-size:0.8em;text-transform:uppercase}
+
+.cards li .flip-back .sprites-arrow {
+	margin: 0 auto -5px auto;
+	display: inline-block
+}
+
+.ie8 .cards li:hover .card_text h3,
+.ie8 .cards li:hover .card_text p{color:#caa58e}
+
+.ie8 .cards li .flip-back {
+	display: none
+}
+
+.cards li .flip-front, .cards li .flip-back {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: 0.75s;
+	-moz-transition: 0.75s;
+	-o-transition: 0.75s;
+	transition: 0.75s;
+	-webkit-transition-delay: 0.15s;
+	-moz-transition-delay: 0.15s;
+	-o-transition-delay: 0.15s;
+	transition-delay: 0.15s
+}
+
+.cards li .flip-back {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	display: block
+}
+.cards li:hover .flip-front {
+	z-index: 5;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	opacity: 0 !important
+}
+.cards li:hover .flip-back {
+	opacity: 1.0;	
+	z-index: 10;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg)
+}
+
+@media screen and (max-width:1024px){
+	.cards li {
+		width:220px;
+		height: 220px;
+		padding:0 10px;
+		margin-bottom:30px;
+    }
+	.card_text {bottom:-40px}
+	.cards li .flip-front {width: 220px}
+
+
+}

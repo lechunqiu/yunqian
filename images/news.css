@@ -1,0 +1,91 @@
+
+.news_con{width:100%;padding-top:3em;padding-bottom:30px;position:relative}
+.swiper-container {width:100%;height:500px}
+.event_box{height:380px}
+
+.btn_box{width:100%;padding-bottom:20px; overflow:hidden;text-align:center}
+.btn_box a span{ display:none}
+
+a.prev_btn,
+a.next_btn{width:54px;height:54px;margin:0 10px;border:1px #ccc solid; background:url("sprites.png")/*tpa=http://62943095.cn/case/moru/images/sprites.png*/ no-repeat; display:inline-block}
+a.prev_btn{ background-position:0 -79px}
+a.prev_btn:hover{background-position:-56px -79px}
+a.next_btn{ background-position:0 -136px}
+a.next_btn:hover{background-position:-56px -136px}
+
+.news_list{margin-right:-15px}
+.news_list li{width:370px;padding-bottom:40px;padding-right:15px;position:relative;float:left}
+.news_list li a{ display:block; position:relative}
+.img_box{border:1px #ccc solid;padding:14px; display:block}
+.img_box img{width:100%;max-width:100%}
+.news_list li h3{
+	font-weight:normal;height:44px;padding-top:14px;padding-right:10px;line-height:22px;font-size:18px;
+	color: #d10f44; overflow:hidden; position:relative}
+.line{width:70px;height:16px;border-bottom: 1px #d10f44 solid;display:block; /*position:absolute;bottom:0;left:0*/}
+.item_text{height:84px;line-height:21px;padding-top:12px;color:#787878;font-size:13px; overflow:hidden; display:block}
+
+.pagination {width:100%;text-align:center}
+.swiper-pagination-switch {display: inline-block;width: 6px;height: 6px;background: #000;margin: 0 5px;cursor: pointer;}
+.swiper-active-switch {width:8px;height:8px;background: #E4007B;}
+
+.video_box{width:600px; margin:36px auto 40px auto}
+.video_box iframe{width:600px;height:380px}
+.video_title{font-size:18px;font-size:18px;font-weight:normal;color:#c59a6d;border-left:4px #c59a6d solid;margin-top:10px;padding-left:10px}
+.video_title span{width:100%; display:block;font-size:13px;color:#ccc}
+
+.video_list{width:100%;border-bottom:1px #eaeaea solid;padding-bottom:30px;margin-bottom:40px; overflow:hidden}
+.video_list h3{font-size:18px;font-weight:normal;color:#c59a6d; border-bottom:10px #eaeaea solid;padding-bottom:9px; text-indent:10px}
+.video_list ul{padding-top:25px;margin-right:-25px}
+.video_list li{width:208px;margin-right:25px;float:left}
+.video_list li a{ display:block; position:relative}
+.video_list li img{width:100%;max-width:100%}
+.video_list li h4{font-size:13px;line-height:1;font-weight:normal;padding:10px 0 8px 0;color:#c59a6d}
+.video_list li p{font-size:13px;color:#cccccc}
+
+.icon-play,
+.icon-play2{
+	 display:block;width:76px;height:76px;
+	 background:url("icon-paly.png")/*tpa=http://62943095.cn/case/moru/images/icon-paly.png*/ no-repeat;
+	 position:absolute; top:50%;left:50%;margin-top:-36px;margin-left:-36px; z-index:9
+}
+.icon-play2{
+	width:140px;height:140px;background:url("icon-paly2.png")/*tpa=http://62943095.cn/case/moru/images/icon-paly2.png*/ no-repeat;margin-top:-70px;margin-left:-70px;
+	filter:alpha(opacity=80); opacity:.8;-webkit-opacity:.8;-moz-opacity:.8;
+}
+.news_list li a:hover .icon-play2{filter:alpha(opacity=100); opacity:1;-webkit-opacity:1;-moz-opacity:1;}
+	 
+
+.star_list{width:100%;}
+.star_list ul{padding-bottom:28px;margin-right:-12px; overflow:hidden}
+.star_list li{width:276px;margin-right:12px;float:left}
+.star_list li img{width:100%;max-width:100%}
+.icon-arrow-b{ background:url("arrow-b.gif")/*tpa=http://62943095.cn/case/moru/images/arrow-b.gif*/ no-repeat top center; overflow:hidden;padding-top:30px}
+
+/*11.3*/
+.star_message{padding:20px 15px 0 15px; overflow:hidden}
+.star_message li{width:33.3333%;text-align:center;margin:15px 0;padding-bottom:17px; position:relative;float:left}
+.star_message li p{padding:5px 20px;font-size:12px}
+.star_message li p span{display:block}
+.star_name{width:152px;line-height:1.4; background:#fff; position:absolute; bottom:0;left:50%;margin-left:-91px}
+.star_line{border-bottom:1px #eaeaea solid;height:15px; display:block}
+.name{color:#caa58e;font-size:14px}
+.post{color:#000}
+
+.reserve_box{width:100%;padding-top:20px; overflow:hidden}
+.reserve_box > div{width:33.3333%; text-align:center;float:left}
+.reserve_box > div p.cont_text{width:80%;padding-top:10px}
+
+.reserve_img{width:100%; position:relative; display:block}
+.icon_arrow_r{width:41px;height:49px; display:block; position:absolute;top:50%;margin-top:-24px;right:-20px; background:url("arrow_r.gif")/*tpa=http://62943095.cn/case/moru/images/arrow_r.gif*/ no-repeat right center}
+
+
+@media screen and (max-width:1024px){
+    .news_list li{width:310px}
+	.swiper-container{height:450px}
+	.event_box{height:310px}
+	
+	.video_list ul{padding-top:20px;margin-right:-20px}
+    .video_list li{width:176px;margin-right:20px}
+	
+	.star_list li{width:231px}
+}

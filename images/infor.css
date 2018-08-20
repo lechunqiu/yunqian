@@ -1,0 +1,206 @@
+
+.infor_banner{widht:100%;height:146px; background:#333}
+
+.bread_crumbs{}
+.bread_crumbs span{color:#666;padding-right:15px}
+.bread_crumbs .cur{color:#ff4747}
+
+
+/* 视频中心列表 start
+------------------------------------------------------------*/
+.video_list{width:100%;padding-top:30px;overflow:hidden}
+.video_list li{border-top:1px #dedede dashed;padding-top:30px;padding-bottom:30px; overflow:hidden}
+.video_text{width:36%}
+.video_text h3{font-size:1.125em;padding-bottom:5px}
+.video_text p{font-size:.875em;padding:10px 0}
+.date{font-size:12px;color:#787878}
+
+.video_pic{width:62.28%}
+.video_pic img{width:100%;max-width:100%}
+.video_pic a{ display:block; position:relative}
+.video_pic a:hover .icon-play2{filter:alpha(opacity=100); opacity:1;-webkit-opacity:1;-moz-opacity:1}
+
+.icon-play,
+.icon-play2{
+	 display:block;width:76px;height:76px;
+	 background:url("icon-paly.png")/*tpa=http://62943095.cn/case/moru/images/icon-paly.png*/ no-repeat;
+	 position:absolute; top:50%;left:50%;margin-top:-36px;margin-left:-36px; z-index:9
+}
+
+.icon-play2{
+	width:140px;height:140px;background:url("icon-paly2.png")/*tpa=http://62943095.cn/case/moru/images/icon-paly2.png*/ no-repeat;margin-top:-70px;margin-left:-70px;
+	filter:alpha(opacity=70); opacity:.7;-webkit-opacity:.7;-moz-opacity:.7;
+}
+
+.page{width:100%;height:54px;padding-top:30px;padding-bottom:30px;/*border-top:1px #dedede solid;*/ text-align:center}
+.page p{width:50%;float:left; text-align:justify;}
+.page a{height:54px;line-height:54px;margin:0 6px; display:inline-block}
+.page a.cur{color:#c59a6d}
+
+a.prev,
+a.next{width:54px;height:54px;border:1px #ccc solid; background:url("sprites.png")/*tpa=http://62943095.cn/case/moru/images/sprites.png*/ no-repeat;display:inline-block; text-indent:-9999px}
+
+a.prev{ background-position:0 -79px}
+a.prev:hover{background-position:-56px -79px}
+
+a.next{ background-position:0 -136px}
+a.next:hover{background-position:-56px -136px}
+
+/*视频详情*/
+
+.infor_title{width:100%;font-size:1.5em;font-weight:normal;border-bottom:1px #333 solid; text-align:center;padding-top:40px; padding-bottom:24px; position:relative}
+.video_date{width:128px;height:24px;line-height:24px;font-size:12px; background:#fff; position:absolute;bottom:-12px;left:50%;margin-left:-64px}
+
+.infor_box{width:100%;border-bottom:1px #333 solid; overflow:hidden}
+.player_box{width:600px;height:380px;padding:30px 0;margin:0 auto}
+.player_box iframe{width:600px;height:380px}
+
+/* 媒体专访列表
+------------------------------------------------------------------*/
+.news_list{margin-right:-30px;overflow:hidden}
+.news_list li{width:360px;padding-bottom:30px;padding-right:30px;position:relative;float:left}
+.news_list li a{display:block; position:relative;overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
+.img_box img{width:100%;max-width:100%}
+
+.news_list li a.img_link .logo_white{
+	width:180px;height:60px; display:block;
+	position:absolute;top:50%;left:50%; z-index:9;margin-top:-30px;margin-left:-90px;
+	display:none; opacity:0;
+}
+.news_list li a.img_link:hover .logo_white{ display:block;opacity:1;}
+
+.news_list li a.img_link .hover_bg{width:100%;height:100%; display:block; position:absolute; z-index:5;top:0;bottom:0; background:#000; filter:alpha(opacity=0); opacity:0;-webkit-opacity:0;-moz-opacity:0}
+.news_list li a.img_link:hover .hover_bg{filter:alpha(opacity=30); opacity:.3;-webkit-opacity:.3;-moz-opacity:.3}
+
+.news_list li h3{width:100%;height:22px;font-weight:normal;padding-top:14px;font-size:16px}
+.news_list li h3 a{color:#333;}
+.news_list li h3 a:hover{color:#000}
+.item_text{height:21px;line-height:21px;padding-top:12px;color:#787878;font-size:13px; overflow:hidden;white-space:nowrap; text-overflow:ellipsis; display:block}
+
+.media_list{width:100%}
+.media_list ul{margin-right:-15px; overflow:hidden}
+.media_list li{width:204px;padding:5px;margin-right:15px; background:#fff;float:left}
+.media_list li a{ display:block}
+.media_list li img{width:100%;max-width:100%}
+
+.news_infor{width:100%;padding:30px 0; margin:0 auto}
+.news_infor img{/*width:100%;*/max-width:1005}
+.news_infor h4{ text-align:center;padding-top:20px;padding-bottom:10px;font-size:16px}
+.news_infor p{font-size:14px;padding-bottom:10px;padding-top:10px}
+
+
+.doctor_box{ overflow:hidden}
+.doctor_photo{width:28.947%}
+.doctor_photo img{width:100%;max-width:100%;margin-bottom:20px}
+
+.doctor_infor{width:66.66667%}
+.doctor_text{padding:30px;margin-bottom:30px;background:#fbfbfb}
+.doctor_text h3{border-bottom:1px #d4d4d4 solid;padding-left:10px;font-weight:normal;font-size:18px;padding-bottom:8px;}
+.doctor_text h3 span{ display:block}
+.doctor_text h3 span.f{color:#E4007B}
+.doctor_text p{font-size:14px;padding-top:20px;padding-left:10px;line-height:1.8;padding-right:10px;}
+
+.list_text{padding:20px 10px 0 10px;}
+.list_text li{font-size:14px;line-height:30px}
+
+.beauty{width:1000px;border-left:1px #ead8b6 solid;padding-left:14px;padding-bottom:20px; position:relative}
+.beauty_con{
+	width:100%;border-bottom:1px #ead8b6 solid;
+	 background:url("circle_bg.png")/*tpa=http://62943095.cn/case/moru/images/circle_bg.png*/ no-repeat 2px 0;line-height:26px;padding-bottom:20px; margin-bottom:18px;position:relative;float:left}
+
+.icon_dot_t,
+.icon_dot_b{width:12px;height:12px; background:url("icon_dot.png")/*tpa=http://62943095.cn/case/moru/images/icon_dot.png*/ no-repeat; position:absolute; left:-6px}
+.icon_dot_t{top:-10px}
+.icon_dot_b{bottom:-10px}
+
+.icon_dot2{width:12px;height:12px; background:url("icon_dot-02.png")/*tpa=http://62943095.cn/case/moru/images/icon_dot-02.png*/ no-repeat; position:absolute;top:38px;left:-20px; display:block}
+.beauty_title{width:80px;color:#333; position:absolute;left:-110px;font-size:20px;line-height:24px;font-weight:normal;top:20px; text-align:right}
+
+.beauty_text{width:540px;font-size:14px;line-height:26px;padding-left:10px;float:left}
+.initials{font-size:18px;padding-right:10px;line-height:33px;color:#E4007B}
+
+.beauty_list{width:430px;border-left:1px #ead8b6 dashed;float:right}
+.beauty_list ul{padding-left:20px;}
+.beauty_list li{width:33.3333%;height:24px;line-height:24px;letter-spacing:-1px;overflow:hidden; white-space:nowrap; text-overflow: ellipsis; background:url("icon_dot-02.png")/*tpa=http://62943095.cn/case/moru/images/icon_dot-02.png*/ left center no-repeat;font-size:14px;float:left}
+.beauty_list li span{padding-left:16px}
+
+.beauty_img{padding-left:20px;float:left;padding-top:40px}
+
+.brand_text{width:700px}
+.brand_pic{width:214px;padding-right:24px}
+.brand_pic img{width:100%;max-width:100%}
+
+.brand_list{padding-left:20px}
+.brand_list li{ background:url("icon_dot-02.png")/*tpa=http://62943095.cn/case/moru/images/icon_dot-02.png*/ left center no-repeat;padding-left:20px;}
+
+/*四季定制*/
+.fs_title{border-top:1px #333 solid;font-weight:normal;font-size:1.25em;color:#333;padding:10px 0;margin-bottom:30px;border-bottom:2px #333 solid}
+.fs_title .en{font-family: 'edwardian';}
+.spring_con{padding-left:60px;padding-right:20px;overflow:hidden}
+.circle_bg{ background:url("circle_bg.png")/*tpa=http://62943095.cn/case/moru/images/circle_bg.png*/ no-repeat 2px 0;padding-left:10px}
+
+.wrap_img img{width:100%;max-width:100%}
+.spring_pic{width:244px; text-align:center}
+.spring_pic2{width:52%}
+
+.spring_pic3{width:100px; float:left}
+
+.spring_text2{width:49%; background:#fff}
+.spring_text2 p{display:table-cell;padding-top:15px;font-size:14px;}
+.spring_text2 p.circle_bg{ background-position:2px 15px}
+
+.summer_pic{float:left;margin-right:40px}
+.summer_text{display:table-cell;padding-bottom:30px}
+.summer_con p{font-size:14px;line-height:24px}
+
+.dot{background:url("icon_dot-02.png")/*tpa=http://62943095.cn/case/moru/images/icon_dot-02.png*/ left 10px no-repeat;padding-left:20px;color:#787878}
+
+.autumn_text{width:390px}
+
+.winter_list{padding-left:10px;padding-right:10px; overflow:hidden;padding-bottom:30px}
+.winter_list li{width:33.3333%; text-align:center;float:left}
+.winter_list li h3{font-size:16px;color:#E4007B;font-weight:normal;padding:10px 0 6px 0}
+
+@media screen and (max-width:1024px){
+	.news_list{margin-right:-15px}
+    .news_list li{width:310px;padding-right:15px;padding-bottom:20px;}
+	.media_list li{width:168px}
+	
+	.beauty{width:860px}
+	.beauty_text{width:440px}
+	.brand_text{width:580px}
+	.beauty_list{width:390px}
+	.beauty_list ul{padding-left:10px;}
+	.spring_pic3{width:80px}
+	.autumn_img{width:400px}
+
+}
+
+.spring_text1{width:46%;padding:10px 0 0 0}
+.beauty_text2{width:100%;padding-left:0px}
+.beauty_text2 p{padding-left:10px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
