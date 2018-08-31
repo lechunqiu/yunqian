@@ -148,3 +148,11 @@ a.more_btn3:hover{background:#d10f44}
 .hos_con > div p{
 	text-align: justify;
 }
+
+.item_list li p.wek_cont_text{
+	height: 40px;
+	text-align: center;
+}
+.wek_item_list li{
+	height: 420px;
+}
