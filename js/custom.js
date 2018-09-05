@@ -6,11 +6,12 @@ $(document).ready(function(){
         swipe: true,    // Add possibility to Swipe > note that you have to include touchSwipe for this
         slideTracker: true, // Add a UL with list items to track the current slide
         slideTrackerID: 'slideposition', // The name of the UL that tracks the slides
-        slideOnInterval: false, // Slide on interval
-        interval: 9000, // Interval to slide on if slideOnInterval is enabled
+        slideOnInterval: true, // Slide on interval
+        interval: 3000, // Interval to slide on if slideOnInterval is enabled
         animateDuration: 1000, // Duration of an animation
         animationEasing: 'ease', // Accepts: linear ease in out in-out snap easeOutCubic easeInOutCubic easeInCirc easeOutCirc easeInOutCirc easeInExpo easeOutExpo easeInOutExpo easeInQuad easeOutQuad easeInOutQuad easeInQuart easeOutQuart easeInOutQuart easeInQuint easeOutQuint easeInOutQuint easeInSine easeOutSine easeInOutSine easeInBack easeOutBack easeInOutBack
         pauseOnHover: false // Pause when user hovers the slide container
+       	
     };
 
     $(".slider").simpleSlider(options);
@@ -40,4 +41,26 @@ $(document).ready(function(){
     $(".slidecontent").each(function(){
         $(this).css('margin-top', -$(this).height()/2);
     });
+    
+     var widW=$(window).width();
+    	 var widH=$(window).height();
+	    if(widW<1317){
+	    	$('.pagewrap').height(widW*3/5)
+	    }else{
+	    	$('.pagewrap').height(widH)
+	    }
+    
+    $(window).resize(function(){
+    	 var widW=$(window).width();
+    	 var widH=$(window).height();
+	    if(widW<1317){
+	    	$('.pagewrap').height(widW*3/5)
+	    }else{
+	    	$('.pagewrap').height(widH)
+	    }
+    })
+   
+    
+
+    
 });
