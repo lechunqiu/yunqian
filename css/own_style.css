@@ -113,3 +113,16 @@
 	text-decoration: none;
 }
 
+
+
+	
+@media only screen  and (max-width: 992px) {
+	.zx_list_img{
+		height: auto;
+	}
+}
+	
+	.brand_projects li a:hover{
+		text-decoration: none;
+	}
+
