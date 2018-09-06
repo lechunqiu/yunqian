@@ -113,16 +113,40 @@
 	text-decoration: none;
 }
 
-
-
-	
-@media only screen  and (max-width: 992px) {
-	.zx_list_img{
+@media only screen and (max-width: 992px) {
+	.zx_list_img {
 		height: auto;
 	}
 }
-	
-	.brand_projects li a:hover{
-		text-decoration: none;
-	}
 
+.brand_projects li a:hover {
+	text-decoration: none;
+}
+
+.ys_box h4 {
+	color: #FFFFFF;
+}
+
+.ys_box a {
+	display: block;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.ys_box a img {
+	width: 30%;
+	margin-top: 30%;
+}
+
+.ys_row {
+	padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+	.ys_box.col-xs-6 a {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+}
