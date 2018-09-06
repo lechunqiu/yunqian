@@ -51,26 +51,13 @@
 
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
+		<script src="js/jquery1.11.1.js"></script>
+		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>
 
 	<body>
 
-		<style type="text/css">
-			.top_bar_mob {
-				background: url(images/top_bg.png);
-				position: fixed;
-				top: 0;
-				width: 100%;
-				z-index: 999;
-				padding: 10px 0;
-			}
-			
-			.nav_menu {
-				color: #d10f44;
-				font-size: 28px;
-			}
-		</style>
 		<div class="top_bar_mob hidden-lg hidden-md">
 			<div class="container">
 				<div class="mob_top_con">
@@ -81,6 +68,47 @@
 
 					</div>
 				</div>
+			</div>
+		</div>
+		
+		<div class="mob_zg">
+			
+		</div>
+		<div class="mob_nav">
+			<span class="close_mob_nav glyphicon glyphicon-remove"></span>
+			<div class="container">
+				<div class="mob_search">
+					<input class="search_ipt" type="text" name="" id="" value="" />
+					<input class="search_btn" type="submit" value="">
+				</div>
+				<ul class="mob_nav_list">
+					<li>
+						<a href="index.html" title="首页">首页</a>
+					</li>
+					<li>
+						<a href="product.html" title="产品服务">产品服务</a>
+					</li>
+					<li>
+						<a href="about.html" title="关于我们">关于我们</a>
+					</li>
+
+					<li>
+						<a href="news.html" title="公司资讯">公司资讯</a>
+					</li>
+
+					<li>
+						<a href="course.html" title="学习课程"> 学习课程</a>
+					</li>
+
+					<li>
+						<a href="case.html" title="案例展示"> 案例展示</a>
+					</li>
+
+					<li>
+						<a href="contact.html" title="联系我们">联系我们</a>
+					</li>
+
+				</ul>
 			</div>
 		</div>
 		<!--
@@ -370,38 +398,41 @@
 			<!--新闻中心 Private Beautiful Custom  end-->
 
 			<!--案例展示 Brand Projects start-->
-			
+
 			<style type="text/css">
-				.alzs_box{
+				.alzs_box {
 					margin-bottom: 20px;
 				}
-				.alzs_box a{
+				
+				.alzs_box a {
 					display: block;
-				    background: #efefef;
-				    border: 10px #efefef solid;
-				    
-				}
-				.alzs_box img {
-				    width: 100%;
-				    max-width: 100%;
-				}
-				.alzs_box a h4 {
-				    position: absolute;
-				    right: 26px;
-				    color: #999;
-				    bottom: 20px;
-				    font-size: .875em;
-				    text-align: right;
-				    font-weight: normal;
-				}
-				.alzs_box a .en {
-				    font-family: 'edwardian';
-				    font-size: 3.5em;
-				    line-height: 1;
-				    color: #ff4747;
+					background: #efefef;
+					border: 10px #efefef solid;
 				}
 				
-				.alzs_box a:hover{
+				.alzs_box img {
+					width: 100%;
+					max-width: 100%;
+				}
+				
+				.alzs_box a h4 {
+					position: absolute;
+					right: 26px;
+					color: #999;
+					bottom: 20px;
+					font-size: .875em;
+					text-align: right;
+					font-weight: normal;
+				}
+				
+				.alzs_box a .en {
+					font-family: 'edwardian';
+					font-size: 3.5em;
+					line-height: 1;
+					color: #ff4747;
+				}
+				
+				.alzs_box a:hover {
 					background-color: #d10f44;
 					border-top-color: #d10f44;
 					border-right-color: #d10f44;
@@ -409,8 +440,14 @@
 					border-left-color: #d10f44;
 					text-decoration: none;
 				}
-				.alzs_box a:hover h4{color:#fff}
-				.alzs_box a:hover .en{color:#fff}
+				
+				.alzs_box a:hover h4 {
+					color: #fff
+				}
+				
+				.alzs_box a:hover .en {
+					color: #fff
+				}
 			</style>
 			<div class="main_box pb_none container" id="cont_5">
 
@@ -418,62 +455,62 @@
           			<span class="en">Case Show</span>
                     <span class="ch">案例展示</span>
      			</h2>
-     			
-     			<div class="row">
-     				
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-						<img alt="沃尔卡案例展示" src="images/pp3.jpg">
-						<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-						<span class="en">1</span> </a>
-     				</div>
-     				
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp6.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">2</span> </a>
-     				</div>
-     				
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp5.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">3</span> </a>
-     				</div>
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp2.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">4</span> </a>
-     				</div>
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp1.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">5</span> </a>
-     				</div>
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp1.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">6</span> </a>
-     				</div>
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp8.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">7</span> </a>
-     				</div>
-     				<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
-     					<a href="product1.html" class="transition2">
-								<img alt="沃尔卡案例展示" src="images/pp4.jpg">
-								<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
-								<span class="en">8</span> </a>
-     				</div>
-     				
-     			</div>
-     			
+
+				<div class="row">
+
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp3.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">1</span> </a>
+					</div>
+
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp6.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">2</span> </a>
+					</div>
+
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp5.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">3</span> </a>
+					</div>
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp2.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">4</span> </a>
+					</div>
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp1.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">5</span> </a>
+					</div>
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp1.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">6</span> </a>
+					</div>
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp8.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">7</span> </a>
+					</div>
+					<div class="alzs_box col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="product1.html" class="transition2">
+							<img alt="沃尔卡案例展示" src="images/pp4.jpg">
+							<h4 title='沃尔卡案例展示'>沃尔卡案例展示</h4>
+							<span class="en">8</span> </a>
+					</div>
+
+				</div>
+
 				<div class="cont_box cont_line">
 				</div>
 			</div>
@@ -481,7 +518,7 @@
 
 			<!--品牌优势 Eight Beauty Center  start-->
 			<div class="main_box cont_bg4 " id="cont_6">
-				
+
 				<h2 class="title title2">
           <span class="en">Brand Superiority</span>
                               <span class="ch">品牌优势</span>
@@ -489,42 +526,41 @@
           <!-- <span class="ch">八大美丽订制中心</span> -->
       </h2>
 				<div class=" beauty_box container">
-					
-      
-      			<div class="row ys_row">
-      				<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      					<a href="####">
-      						<img src="images/beauty_nav_icon.png" alt="" />
-      						<h4>综合实力雄厚</h4>
-      					</a>
-      					
-      				</div>
-      				<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      					
-      					<a href="####">
-      						<img src="images/beauty_nav_icon-02.png" alt="" />
-      						<h4>专注养护事业</h4>
-      					</a>
-      					
-      				</div>
-      				<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      					
-      					<a href="####">
-      						<img src="images/beauty_nav_icon-05.png" alt="" />
-      						<h4>产品系列齐全</h4>
-      					</a>
-      					
-      				</div>
-      				<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
-      					
-      					<a href="####">
-      						<img src="images/beauty_nav_icon-08.png" alt="" />
-      						<h4>品质至臻</h4>
-      					</a>
-      				</div>
-      				
-      			</div>
-      			
+
+					<div class="row ys_row">
+						<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+							<a href="####">
+								<img src="images/beauty_nav_icon.png" alt="" />
+								<h4>综合实力雄厚</h4>
+							</a>
+
+						</div>
+						<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+							<a href="####">
+								<img src="images/beauty_nav_icon-02.png" alt="" />
+								<h4>专注养护事业</h4>
+							</a>
+
+						</div>
+						<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+							<a href="####">
+								<img src="images/beauty_nav_icon-05.png" alt="" />
+								<h4>产品系列齐全</h4>
+							</a>
+
+						</div>
+						<div class="text-center ys_box col-lg-3 col-md-3 col-sm-3 col-xs-6">
+
+							<a href="####">
+								<img src="images/beauty_nav_icon-08.png" alt="" />
+								<h4>品质至臻</h4>
+							</a>
+						</div>
+
+					</div>
+
 					<!--<div class="beauty_nav">
 						<ul>
 							<li>
@@ -557,32 +593,36 @@
 				</div>
 			</div>
 			<script type="text/javascript">
-				$(function(){
-					var ys_wid=$('.ys_box a').width();
+				$(function() {
+					var ys_wid = $('.ys_box a').width();
 					$('.ys_box a').height(ys_wid);
-					$(window).resize(function(){
-						var ys_wid=$('.ys_box a').width();
+					$(window).resize(function() {
+						var ys_wid = $('.ys_box a').width();
 						$('.ys_box a').height(ys_wid);
 					})
 				})
 			</script>
 			<!--品牌优势 Eight Beauty Center end-->
-			
+
 			<style type="text/css">
-				.hzpp_box{
+				.hzpp_box {
 					position: relative;
 				}
-				.main_box{
+				
+				.main_box {
 					min-width: auto;
 				}
-				.imglist_w{
-					width:100% ;
+				
+				.imglist_w {
+					width: 100%;
 				}
-				.cont_box p.own_ljgd{
+				
+				.cont_box p.own_ljgd {
 					margin-top: 70px;
 				}
-				.cont_box p.own_ljgd a.more:hover{
-					text-decoration:none;
+				
+				.cont_box p.own_ljgd a.more:hover {
+					text-decoration: none;
 				}
 			</style>
 
@@ -707,7 +747,7 @@
 					})
 				});
 			</script>
-			
+
 			<div class="guide_nav">
 				<div class="guide_navbg">
 					<ul class="guide_point">
@@ -743,112 +783,127 @@
 					</ul>
 				</div>
 			</div>
-			
+
 			<!--底部 bottom start-->
 			<div class="footer_box ">
 				<div class=" container">
 					<!--底部logo&sns-->
-					<div class="fonter_left">
 
-						<img src="images/logo1.png" width="209">
-						<div class="sns_box">
-							<ul>
-								<li>
-									<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
-								</li>
-								<li class="wechat_box">
-									<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
-									<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
-								</li>
+					<div class="row">
 
-							</ul>
+						<div class="bt_logo_box text-center col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="images/logo1.png" width="209">
+							<div class="sns_box">
+								<ul>
+									<li>
+										<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
+									</li>
+									<li class="wechat_box ">
+										<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
+										<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
+									</li>
+
+								</ul>
+							</div>
 						</div>
+
+						<div class=" text-center col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<div class="fonter_nav">
+								<h4>关于沃尔卡</h4>
+								<ul>
+									<li>
+										<a href="about.html">公司简介</a>
+									</li>
+									<li>
+										<a href="about.html">企业文化</a>
+									</li>
+									<li>
+										<a href="about.html">品牌故事</a>
+									</li>
+									<li>
+										<a href="about.html">品牌理念</a>
+									</li>
+									<li>
+										<a href="about.html">品牌历程</a>
+									</li>
+									<li>
+										<a href="about.html">品牌优势</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>品牌专区</h4>
+								<ul>
+									<li>
+										<a href="product.html">沃尔卡</a>
+									</li>
+									<li>
+										<a href="product.html">案例展示</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>新闻中心</h4>
+								<ul>
+									<li>
+										<a href="news.html">公司新闻</a>
+									</li>
+									<li>
+										<a href="news.html">行业资讯</a>
+									</li>
+									<li>
+										<a href="news.html">媒体报道</a>
+									</li>
+									<li>
+										<a href="news.html">常见问题</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>联系我们</h4>
+								<ul>
+									<li>
+										<a href="contact.html">联系方式</a>
+									</li>
+									<li>
+										<a href="#">客户留言</a>
+									</li>
+									<li>
+										<a href="#">新浪微博</a>
+									</li>
+									<li>
+										<a href="#">腾讯微博</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear">
+
+							</div>
+
+							<p class="copyright">Copyright © 2014-2015 上海沃尔卡有限公司 All rights reserved.</p>
+
+						</div>
+
+					</div>
+
+					<div class="fonter_left">
 
 					</div>
 					<div class="fonter_right">
 
-						<div class="fonter_nav">
-							<h4>关于沃尔卡</h4>
-							<ul>
-								<li>
-									<a href="about.html">公司简介</a>
-								</li>
-								<li>
-									<a href="about.html">企业文化</a>
-								</li>
-								<li>
-									<a href="about.html">品牌故事</a>
-								</li>
-								<li>
-									<a href="about.html">品牌理念</a>
-								</li>
-								<li>
-									<a href="about.html">品牌历程</a>
-								</li>
-								<li>
-									<a href="about.html">品牌优势</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>品牌专区</h4>
-							<ul>
-								<li>
-									<a href="product.html">沃尔卡</a>
-								</li>
-								<li>
-									<a href="product.html">案例展示</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>新闻中心</h4>
-							<ul>
-								<li>
-									<a href="news.html">公司新闻</a>
-								</li>
-								<li>
-									<a href="news.html">行业资讯</a>
-								</li>
-								<li>
-									<a href="news.html">媒体报道</a>
-								</li>
-								<li>
-									<a href="news.html">常见问题</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>联系我们</h4>
-							<ul>
-								<li>
-									<a href="contact.html">联系方式</a>
-								</li>
-								<li>
-									<a href="#">客户留言</a>
-								</li>
-								<li>
-									<a href="#">新浪微博</a>
-								</li>
-								<li>
-									<a href="#">腾讯微博</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-							</ul>
-						</div>
-
-						<p class="copyright">Copyright © 2014-2015 上海沃尔卡有限公司 All rights reserved.</p>
 					</div>
 				</div>
 			</div>
 			<!--底部 bottom end-->
 		</div>
-
+		
+		
 
 	</body>
 
