@@ -288,4 +288,23 @@ a.next_btn {
 	left: 0;
 	display: none;	
 }
+@media only screen  and (max-width: 1200px) {
+	.zx_list {
+		height: 539px;
+	}
+}
+
+@media only screen  and (max-width: 992px) {
+	.subpage_banner{
+		padding-top: 52px;
+	}
+	.zx_list{
+		height: auto;
+	}
+	.eight_project{
+		height: auto;
+		padding-bottom: 30px;
+	}
+
+}
 
