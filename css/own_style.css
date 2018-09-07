@@ -280,31 +280,277 @@ a.next_btn {
 	padding: 10px 15px;
 	font-size: 18px;
 }
-.mob_zg{
+
+.mob_zg {
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
-	display: none;	
+	display: none;
 }
-@media only screen  and (max-width: 1200px) {
+
+@media only screen and (max-width: 1200px) {
 	.zx_list {
 		height: 539px;
 	}
 }
 
-@media only screen  and (max-width: 992px) {
-	.subpage_banner{
+@media only screen and (max-width: 992px) {
+	.subpage_banner {
+		background-color: rgba(0,0,0,1);
 		padding-top: 52px;
 	}
-	.zx_list{
+	.zx_list {
 		height: auto;
 	}
-	.eight_project{
+	.eight_project {
 		height: auto;
 		padding-bottom: 30px;
 	}
-
 }
 
+.cpzs_box img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.cpzs_box .cpzs_box_con {
+	border: 1px #FFD5EC solid;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+
+.cpzs_box .cpzs_box_con h3 {
+	font-size: 1em;
+	color: #d10f44;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.cpzs_box .cpzs_box_con p.cont_text {
+	padding: 10px 0;
+	height: 99px;
+	font-size: .75em;
+	text-align: left;
+}
+
+.cpzs_box .cpzs_box_con p.wek_cont_text {
+	height: 40px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.cpzs_box_list {
+	padding-bottom: 30px;
+}
+
+div.ad_cont_box {
+	width: 78%;
+	float: left;
+}
+
+div.cont_box2 {
+	margin-left: 10px;
+	padding: 10px;
+	width: 18%;
+	margin-left: 20px;
+	height: 500px;
+	float: left;
+	margin-top: 119px;
+}
+
+div.cont_box2 h2 {
+	border-bottom: 1px solid #333;
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+
+.ad_expert {
+	height: 330px;
+	overflow: hidden;
+}
+
+.ad_expert .ad_expert_info a {
+	color: #666;
+	font-size: 14px;
+	margin: 2px;
+	margin-right: 4px;
+}
+
+.ad_expert_info {
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.ad_expert .ad_expert_info a:hover {
+	/*color: #f60;*/
+	color: #caa58e;
+}
+
+.article_list {
+	padding-left: 5px;
+}
+
+.article_list li {
+	font-size: 14px;
+	border-bottom: 1px #ccc dashed;
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+.news_infor img {
+	width: 100%;
+}
+
+.main_box{
+					min-width: auto;	
+				}
+				
+.about_con1{
+					padding-left: 0;
+					padding-right: 0;
+				}
+				.left_box {
+					width: 42%;
+					padding: 0;
+				}
+				.right_box{
+					width: 42%;
+					padding: 0;
+				}
+				.qywh_img{
+					width: 16%;
+				}
+				.qywh_img img{
+					width: 100%;
+				}
+				
+				@media only screen and  (min-width: 1200px) {
+					.left_box_text{
+						height: 200px;
+					}
+					
+				}
+				@media only screen and  (max-width: 1200px) {
+					.left_box_text{
+						height: 150px;
+					}
+					
+				}
+				@media only screen and  (max-width: 992px) {
+					.left_box_text{
+						height: 150px;
+					}
+					
+				}
+
+				@media only screen and  (max-width: 768px) {
+					.left_box_text{
+						height: auto;
+					}
+					
+					
+					
+				}
+				@media only screen and (min-width: 100px) and (max-width: 480px) {
+					.left_box {
+					width: 36%;
+					}
+					.right_box{
+						width: 36%;
+					}
+					.qywh_img{
+						width: 28%;
+					}
+				}
+				
+.doctor_con img{
+	width: 100%;
+	height: auto;
+}
+
+.news_list li{
+	width: 33.33%;
+}
+
+.news_two_box{
+					margin-bottom: 20px;
+				}
+				.news_two_box h3 a {
+					color: #333;
+				}
+				
+				.news_two_box h3 a {
+					display: block;
+					position: relative;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+				}
+				
+				.news_two_box h3 {
+					height: 22px;
+					font-weight: normal;
+					padding-top: 14px;
+					font-size: 16px;
+				}
+				
+				.new_two_text {
+					display: block;
+					color: #666666;
+					padding: 10px 0;
+					overflow: hidden;
+					height: 60px;
+				}
+				
+				.new_two_text:hover {
+					color: #d10f44;
+				}
+				.news_two_box a.img_link{
+					display: block;
+					position: relative;
+				}
+				.news_two_box a.img_link .new_two_zg {
+					display: none;
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					background-color: rgba(0,0,0,0.3);
+				}
+				.news_two_box a.img_link:hover .new_two_zg {
+					display: block;
+				}
+				.xwlb_con{
+					padding-top:20px ;
+					padding-bottom: 60px;
+				}
+				.title .ch{
+					margin-top: 4px;
+					font-size: 1.6em;
+				}
+				
+				.wz_ditu{
+					margin-bottom: 40px;
+				}
+				
+				.manage_h{
+					width: 100%;
+				}
+				.content_consult p.current textarea{
+					width: 100%;
+				}
+				.content_consult p{
+					width: 100%;
+					max-width: 300px;	
+				}
+				

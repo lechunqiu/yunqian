@@ -29,14 +29,75 @@
 				})
 			})
 		</script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
+		<script src="js/jquery1.11.1.js"></script>
+		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
 
 	<body>
+		
+		<div class="top_bar_mob hidden-lg hidden-md">
+			<div class="container">
+				<div class="mob_top_con">
+					<a href="index.html"><img src="images/logo2.png" /></a>
+
+					<span class="nav_menu glyphicon glyphicon-menu-hamburger pull-right"></span>
+					<div class="clearfix">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mob_zg">
+
+		</div>
+		<div class="mob_nav">
+			<span class="close_mob_nav glyphicon glyphicon-remove"></span>
+			<div class="container">
+				<div class="mob_search">
+					<input class="search_ipt" type="text" name="" id="" value="" />
+					<input class="search_btn" type="submit" value="">
+				</div>
+				<ul class="mob_nav_list">
+					<li>
+						<a href="index.html" title="首页">首页</a>
+					</li>
+					<li>
+						<a href="product.html" title="产品服务">产品服务</a>
+					</li>
+					<li>
+						<a href="about.html" title="关于我们">关于我们</a>
+					</li>
+
+					<li>
+						<a href="news.html" title="公司资讯">公司资讯</a>
+					</li>
+
+					<li>
+						<a href="course.html" title="学习课程"> 学习课程</a>
+					</li>
+
+					<li>
+						<a href="case.html" title="案例展示"> 案例展示</a>
+					</li>
+
+					<li>
+						<a href="contact.html" title="联系我们">联系我们</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
+		
 		<div class="wrap">
 
 			<!--top nav start-->
 			<!--1-->
-			<div class="top_bar">
+			<div class="top_bar  hidden-sm hidden-xs">
 				<div class="top_main">
 					<h1 class='hidden' style="display:none;">上海云迁物联有限公司</h1>
 					<a href="index.html" class="fl">
@@ -85,7 +146,7 @@
 				</div>
 			</div>
 			<!--2-->
-			<div class="top_fixed">
+			<div class="top_fixed  hidden-sm hidden-xs">
 				<div class="top_main">
 					<a href="index.html" class="fl">
 						<img src="images/logo2.png">
@@ -136,88 +197,28 @@
 			<link href="images/infor.css" rel="stylesheet" type="text/css">
 			<script type="text/javascript" src="images/nav.js"></script>
 			<!--第一屏KV start-->
-			<div class="main_box" style="padding:0" id="cont_1">
+			<div class="subpage_banner" id="cont_1">
 				<div class="page_banner">
 					<img src="images/banner3.jpg" data-width="1920" data-height="441">
 				</div>
 			</div>
 			<!--第一屏KV end-->
 
-			<style>
-				div.ad_wrap {
-					width: 1140px;
-					margin: 0 auto;
-				}
-				
-				div.ad_cont_box {
-					width: 78%;
-					float: left;
-				}
-				
-				div.cont_box2 {
-					margin-left: 10px;
-					padding: 10px;
-					width: 18%;
-					margin-left: 20px;
-					height: 500px;
-					float: left;
-					margin-top: 119px;
-				}
-				
-				div.cont_box2 h2 {
-					border-bottom: 1px solid #333;
-					font-size: 20px;
-					font-weight: normal;
-					padding-bottom: 7px;
-					padding-left: 10px;
-				}
-				
-				.ad_expert {
-					height: 330px;
-					overflow: hidden;
-				}
-				
-				.ad_expert .ad_expert_info a {
-					color: #666;
-					font-size: 14px;
-					margin: 2px;
-					margin-right: 4px;
-				}
-				
-				.ad_expert_info {
-					padding-left: 5px;
-					padding-top: 10px;
-				}
-				
-				.ad_expert .ad_expert_info a:hover {
-					/*color: #f60;*/
-					color: #caa58e;
-				}
-				
-				.article_list {
-					padding-left: 5px;
-				}
-				
-				.article_list li {
-					font-size: 14px;
-					border-bottom: 1px #ccc dashed;
-					padding: 10px 0;
-					line-height: 20px;
-				}
-			</style>
-			<div class="ad_wrap">
+
+			<div class="container ">
 
 				<!--新闻详情 start-->
 				<div class="cont_box pt20 pb20">
 					<div class="bread_crumbs pb20"><span><a href="index.html" >首页 &gt;</a></span><span>
-       <a href="product.html" >品牌专区 &gt;</a></span>
+       				<a href="product.html" >品牌专区 &gt;</a></span>
 						<span class="cur">产品详情</span></div>
 					<h2 class="infor_title">心芯相印：发动机高科技核心养护套装        <span class="video_date">
 						2018.10.16 04:38:25</span>
        </h2>
 					<div class="infor_box">
 						<div class="news_infor">
-							<p style="text-align: center;"><img src="images/222.jpg" style="width: 1140px;"></p>
+							<p style="text-align: center;">
+								<img src="images/222.jpg" ></p>
 							
 							<p>
 								<b>服务详情：</b>
@@ -256,108 +257,124 @@
 			</div>
 
 			<!--底部 bottom start-->
-			<div class="footer_box">
-				<div class="cont_box">
+			<div class="footer_box ">
+				<div class=" container">
 					<!--底部logo&sns-->
-					<div class="fonter_left">
 
-						<img src="images/logo1.png" width="209">
-						<div class="sns_box">
-							<ul>
-								<li>
-									<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
-								</li>
-								<li class="wechat_box">
-									<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
-									<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
-								</li>
+					<div class="row">
 
-							</ul>
+						<div class="bt_logo_box text-center col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="images/logo1.png" width="209">
+							<div class="sns_box">
+								<ul>
+									<li>
+										<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
+									</li>
+									<li class="wechat_box ">
+										<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
+										<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
+									</li>
+
+								</ul>
+							</div>
 						</div>
+
+						<div class=" text-center col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<div class="fonter_nav">
+								<h4>关于沃尔卡</h4>
+								<ul>
+									<li>
+										<a href="about.html">公司简介</a>
+									</li>
+									<li>
+										<a href="about.html">企业文化</a>
+									</li>
+									<li>
+										<a href="about.html">品牌故事</a>
+									</li>
+									<li>
+										<a href="about.html">品牌理念</a>
+									</li>
+									<li>
+										<a href="about.html">品牌历程</a>
+									</li>
+									<li>
+										<a href="about.html">品牌优势</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>品牌专区</h4>
+								<ul>
+									<li>
+										<a href="product.html">沃尔卡</a>
+									</li>
+									<li>
+										<a href="product.html">案例展示</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>新闻中心</h4>
+								<ul>
+									<li>
+										<a href="news.html">公司新闻</a>
+									</li>
+									<li>
+										<a href="news.html">行业资讯</a>
+									</li>
+									<li>
+										<a href="news.html">媒体报道</a>
+									</li>
+									<li>
+										<a href="news.html">常见问题</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>联系我们</h4>
+								<ul>
+									<li>
+										<a href="contact.html">联系方式</a>
+									</li>
+									<li>
+										<a href="#">客户留言</a>
+									</li>
+									<li>
+										<a href="#">新浪微博</a>
+									</li>
+									<li>
+										<a href="#">腾讯微博</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear">
+
+							</div>
+
+							<p class="copyright">Copyright © 2014-2015 上海沃尔卡有限公司 All rights reserved.</p>
+
+						</div>
+
+					</div>
+
+					<div class="fonter_left">
 
 					</div>
 					<div class="fonter_right">
 
-						<div class="fonter_nav">
-							<h4>关于沃尔卡</h4>
-							<ul>
-								<li>
-									<a href="about.html">公司简介</a>
-								</li>
-								<li>
-									<a href="about.html">企业文化</a>
-								</li>
-								<li>
-									<a href="about.html">品牌故事</a>
-								</li>
-								<li>
-									<a href="about.html">品牌理念</a>
-								</li>
-								<li>
-									<a href="about.html">品牌历程</a>
-								</li>
-								<li>
-									<a href="about.html">品牌优势</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>品牌专区</h4>
-							<ul>
-								<li>
-									<a href="product.html">云迁物联</a>
-								</li>
-								<li>
-									<a href="product.html">产品服务</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>新闻中心</h4>
-							<ul>
-								<li>
-									<a href="news.html">公司新闻</a>
-								</li>
-								<li>
-									<a href="news.html">行业资讯</a>
-								</li>
-								<li>
-									<a href="news.html">媒体报道</a>
-								</li>
-								<li>
-									<a href="news.html">常见问题</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>联系我们</h4>
-							<ul>
-								<li>
-									<a href="contact.html">联系方式</a>
-								</li>
-								<li>
-									<a href="#">客户留言</a>
-								</li>
-								<li>
-									<a href="#">新浪微博</a>
-								</li>
-								<li>
-									<a href="#">腾讯微博</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-							</ul>
-						</div>
-
-						<p class="copyright">Copyright © 2014-2015 上海云迁物联有限公司 All rights reserved.</p>
 					</div>
 				</div>
 			</div>
 			<!--底部 bottom end-->
+		
+		
 		</div>
 
 	</body>

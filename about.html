@@ -29,14 +29,76 @@
 				})
 			})
 		</script>
+		<link href="images/about.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
+		<script src="js/jquery1.11.1.js"></script>
+		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
+		
+		
 	</head>
 
 	<body>
+		
+		<div class="top_bar_mob hidden-lg hidden-md">
+			<div class="container">
+				<div class="mob_top_con">
+					<a href="index.html"><img src="images/logo2.png" /></a>
+
+					<span class="nav_menu glyphicon glyphicon-menu-hamburger pull-right"></span>
+					<div class="clearfix">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mob_zg">
+
+		</div>
+		<div class="mob_nav">
+			<span class="close_mob_nav glyphicon glyphicon-remove"></span>
+			<div class="container">
+				<div class="mob_search">
+					<input class="search_ipt" type="text" name="" id="" value="" />
+					<input class="search_btn" type="submit" value="">
+				</div>
+				<ul class="mob_nav_list">
+					<li>
+						<a href="index.html" title="首页">首页</a>
+					</li>
+					<li>
+						<a href="product.html" title="产品服务">产品服务</a>
+					</li>
+					<li>
+						<a href="about.html" title="关于我们">关于我们</a>
+					</li>
+
+					<li>
+						<a href="news.html" title="公司资讯">公司资讯</a>
+					</li>
+
+					<li>
+						<a href="course.html" title="学习课程"> 学习课程</a>
+					</li>
+
+					<li>
+						<a href="case.html" title="案例展示"> 案例展示</a>
+					</li>
+
+					<li>
+						<a href="contact.html" title="联系我们">联系我们</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
 		<div class="wrap">
 
 			<!--top nav start-->
 			<!--1-->
-			<div class="top_bar">
+			<div class="top_bar  hidden-sm hidden-xs">
 				<div class="top_main">
 					<h1 class='hidden' style="display:none;">上海云迁物联网</h1>
 					<a href="index.html" class="fl">
@@ -85,7 +147,7 @@
 				</div>
 			</div>
 			<!--2-->
-			<div class="top_fixed">
+			<div class="top_fixed  hidden-sm hidden-xs">
 				<div class="top_main">
 					<a href="index.html" class="fl">
 						<img src="images/logo2.png">
@@ -133,9 +195,9 @@
 			<!--top nav end-->
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-			<link href="images/about.css" rel="stylesheet" type="text/css">
+			
 			<!--第一屏KV start-->
-			<div class="main_box" style="padding:0" id="cont_1">
+			<div class="subpage_banner" id="cont_1">
 				<div class="page_banner">
 					<img src="images/banner3.jpg" data-width="1920" data-height="441">
 				</div>
@@ -143,15 +205,17 @@
 			<!--第一屏KV end-->
 
 			<!--公司简介 start-->
-			<div class="main_box pb_none" id="cont_2">
+			
+			<div class="main_box pb_none container" id="cont_2">
+				
 				<div class="cont_box cont_line">
 					<h2 class="title">
 
-          <span class="en">Company Profile</span>
-                          <span class="ch">公司简介</span>
-                    <!-- <span class="ch"></span>  -->
+			          <span class="en">Company Profile</span>
+			          <span class="ch">公司简介</span>
 
-        </h2>
+			        </h2>
+			        
 					<div class="hos_con  pt20">
 						<div class="fl">
 							<h3 class="hos_title "><span class="em">打造全国一流品牌</span></h3>
@@ -162,7 +226,7 @@
 								，不再只是指基于RFID技术的物联网。
 							</p>
 						</div>
-						<div class="fr"> <img src="images/t1.jpg"> </div>
+						<div class="gsjjimg fr"> <img src="images/t1.jpg"> </div>
 					</div>
 
 					<div class="hos_con ">
@@ -175,7 +239,7 @@
 								，不再只是指基于RFID技术的物联网。
 							</p>
 						</div>
-						<div class="fl"> <img src="images/t2.jpg"> </div>
+						<div class="gsjjimg fl"> <img src="images/t2.jpg"> </div>
 					</div>
 
 					<div class="hos_con">
@@ -187,15 +251,18 @@
 								发布的同名报告中，物联网的定义和范围已经发生了变化，覆盖范围有了较大的拓展
 								，不再只是指基于RFID技术的物联网。
 						</div>
-						<div class="fr"> <img src="images/t3.jpg"> </div>
+						<div class="gsjjimg fr"> <img src="images/t3.jpg"> </div>
 					</div>
 
 				</div>
+				
+				
+				
 			</div>
 			<!--公司简 end-->
 
 			<!--企业文化 start-->
-			<div class="main_box pb_none" id="cont_3">
+			<div class="main_box pb_none container" id="cont_3">
 				<div class="cont_box cont_line">
 					<h2 class="title">
          <span class="en">Corporate Culture</span>
@@ -205,26 +272,32 @@
 
 					<div class="about_con1">
 						<div class="left_box fl">
-							<h3 class="pt30">     
-             企业宣言   
-          </h3>
-							<p class="pb60">
-								
-								“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和
-							</p>
-							<h3>服务理念</h3>
-							<p class="pb110">客户至上、品质至臻、服务至善;</p>
+							<div class="left_box_text">
+								<h3>     
+          						  企业宣言   
+	          					</h3>
+								<p >								
+									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和
+								</p>
+							</div>
+							<div class="">
+								<h3>服务理念</h3>
+								<p >客户至上、品质至臻、服务至善;</p>
 
+							</div>
 						</div>
-						<div class="fl"><img src="images/num1.jpg" width="151" height="300"></div>
+						<div class="qywh_img fl"><img src="images/num1.jpg" ></div>
 						<div class="right_box fl">
-							<h3>企业精神</h3>
-							<p class="pb100">专业、高效、责任、服务；</p>
-							<h3>企业使命</h3>
-							<p class="pb40">
-								“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸
-							</p>
-
+							<div class="left_box_text">
+								<h3>企业精神</h3>
+								<p >专业、高效、责任、服务；</p>
+							</div>
+							<div class="">
+								<h3>企业使命</h3>
+								<p >
+									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸
+								</p>
+							</div>
 						</div>
 					</div>
 
@@ -233,7 +306,7 @@
 			<!--企业文化 end-->
 
 			<!-- 品牌故事 start-->
-			<div class="main_box pb_none" id="cont_4">
+			<div class="main_box pb_none container" id="cont_4">
 				<div class="cont_box cont_line">
 					<h2 class="title">
           <span class="en">Personal Customized Beauty</span>
@@ -250,9 +323,9 @@
 				</div>
 			</div>
 			<!-- 品牌故事 end-->
-
+	
 			<!-- 专家团队列表 start-->
-			<div class="main_box pb_none" id="cont_5">
+			<div class="main_box pb_none container" id="cont_5">
 				<div class="cont_box cont_line">
 					<h2 class="title">
           <span class="en">Brand Concept</span>
@@ -288,7 +361,7 @@
 			<!-- 专家团队列表 end-->
 
 			<!-- 全球合作 start-->
-			<div class="main_box" id="cont_6">
+			<div class="main_box container" id="cont_6">
 				<div class="cont_box">
 					<h2 class="title"><span class="en">
           Brand History</span>
@@ -305,7 +378,7 @@
 			<!-- 品牌历程 end-->
 
 			<!-- 全球合作 start-->
-			<div class="main_box" id="cont_7">
+			<div class="main_box container" id="cont_7">
 				<div class="cont_box">
 					<h2 class="title"><span class="en">
           Brand Superiority</span>
@@ -317,7 +390,7 @@
 			<!-- 全球合作 end-->
 
 			<!-- 全球合作 start-->
-			<div class="main_box" id="cont_8">
+			<div class="main_box container" id="cont_8">
 				<div class="cont_box">
 					<h2 class="title"><span class="en">
           Brand Meaning</span>
@@ -420,104 +493,118 @@
 			</div>
 
 			<!--底部 bottom start-->
-			<div class="footer_box">
-				<div class="cont_box">
+			<div class="footer_box ">
+				<div class=" container">
 					<!--底部logo&sns-->
-					<div class="fonter_left">
 
-						<img src="images/logo1.png" width="209">
-						<div class="sns_box">
-							<ul>
-								<li>
-									<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
-								</li>
-								<li class="wechat_box">
-									<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
-									<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
-								</li>
+					<div class="row">
 
-							</ul>
+						<div class="bt_logo_box text-center col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="images/logo1.png" width="209">
+							<div class="sns_box">
+								<ul>
+									<li>
+										<a href="#" class="transition2" target="_blank" rel="nofollow"> <img src="images/icon-sina.png" width="24" height="24"></a>
+									</li>
+									<li class="wechat_box ">
+										<a href="javascript:;" class="transition2" rel="nofollow"> <img src="images/icon-wechat.png" width="24" height="24"></a>
+										<div class="wechat_code"><img src="images/whecat_code.jpg" width="124" height="124"></div>
+									</li>
+
+								</ul>
+							</div>
 						</div>
+
+						<div class=" text-center col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<div class="fonter_nav">
+								<h4>关于沃尔卡</h4>
+								<ul>
+									<li>
+										<a href="about.html">公司简介</a>
+									</li>
+									<li>
+										<a href="about.html">企业文化</a>
+									</li>
+									<li>
+										<a href="about.html">品牌故事</a>
+									</li>
+									<li>
+										<a href="about.html">品牌理念</a>
+									</li>
+									<li>
+										<a href="about.html">品牌历程</a>
+									</li>
+									<li>
+										<a href="about.html">品牌优势</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>品牌专区</h4>
+								<ul>
+									<li>
+										<a href="product.html">沃尔卡</a>
+									</li>
+									<li>
+										<a href="product.html">案例展示</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>新闻中心</h4>
+								<ul>
+									<li>
+										<a href="news.html">公司新闻</a>
+									</li>
+									<li>
+										<a href="news.html">行业资讯</a>
+									</li>
+									<li>
+										<a href="news.html">媒体报道</a>
+									</li>
+									<li>
+										<a href="news.html">常见问题</a>
+									</li>
+								</ul>
+							</div>
+							<div class="fonter_nav">
+								<h4>联系我们</h4>
+								<ul>
+									<li>
+										<a href="contact.html">联系方式</a>
+									</li>
+									<li>
+										<a href="#">客户留言</a>
+									</li>
+									<li>
+										<a href="#">新浪微博</a>
+									</li>
+									<li>
+										<a href="#">腾讯微博</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+									<li>
+										<a href="#">&nbsp;</a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear">
+
+							</div>
+
+							<p class="copyright">Copyright © 2014-2015 上海沃尔卡有限公司 All rights reserved.</p>
+
+						</div>
+
+					</div>
+
+					<div class="fonter_left">
 
 					</div>
 					<div class="fonter_right">
 
-						<div class="fonter_nav">
-							<h4>关于云迁物流</h4>
-							<ul>
-								<li>
-									<a href="about.html">公司简介</a>
-								</li>
-								<li>
-									<a href="about.html">企业文化</a>
-								</li>
-								<li>
-									<a href="about.html">品牌故事</a>
-								</li>
-								<li>
-									<a href="about.html">品牌理念</a>
-								</li>
-								<li>
-									<a href="about.html">品牌历程</a>
-								</li>
-								<li>
-									<a href="about.html">品牌优势</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>品牌专区</h4>
-							<ul>
-								<li>
-									<a href="product.html">云迁物流</a>
-								</li>
-								<li>
-									<a href="product.html">产品服务</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>新闻中心</h4>
-							<ul>
-								<li>
-									<a href="news.html">公司新闻</a>
-								</li>
-								<li>
-									<a href="news.html">行业资讯</a>
-								</li>
-								<li>
-									<a href="news.html">媒体报道</a>
-								</li>
-								<li>
-									<a href="news.html">常见问题</a>
-								</li>
-							</ul>
-						</div>
-						<div class="fonter_nav">
-							<h4>联系我们</h4>
-							<ul>
-								<li>
-									<a href="contact.html">联系方式</a>
-								</li>
-								<li>
-									<a href="#">客户留言</a>
-								</li>
-								<li>
-									<a href="#">新浪微博</a>
-								</li>
-								<li>
-									<a href="#">腾讯微博</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-								<li>
-									<a href="#">&nbsp;</a>
-								</li>
-							</ul>
-						</div>
-
-						<p class="copyright">Copyright © 2014-2015 上海云迁物联网有限公司 All rights reserved.</p>
 					</div>
 				</div>
 			</div>
