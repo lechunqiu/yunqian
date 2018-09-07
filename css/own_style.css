@@ -294,10 +294,15 @@ a.next_btn {
 	.zx_list {
 		height: 539px;
 	}
+	
 }
 
 @media only screen and (max-width: 992px) {
 	.subpage_banner {
+		background-color: rgba(0,0,0,1);
+		padding-top: 52px;
+	}
+	.pagewrap{
 		background-color: rgba(0,0,0,1);
 		padding-top: 52px;
 	}
@@ -508,7 +513,6 @@ div.cont_box2 h2 {
 					color: #666666;
 					padding: 10px 0;
 					overflow: hidden;
-					height: 60px;
 				}
 				
 				.new_two_text:hover {
@@ -553,4 +557,16 @@ div.cont_box2 h2 {
 					width: 100%;
 					max-width: 300px;	
 				}
+				
+				.cpzs_box .cpzs_box_con h3{
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+				.cpzs_box .cpzs_box_con p.wek_cont_text{
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+				
 				

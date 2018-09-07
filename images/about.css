@@ -156,3 +156,8 @@ a.more_btn3:hover{background:#d10f44}
 .wek_item_list li{
 	height: 420px;
 }
+
+a.details_btn{
+					width: 100%;
+					max-width: 150px;
+				}
