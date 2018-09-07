@@ -1,163 +1,666 @@
-
 .brand_con,
-.doctor_con{width:100%; overflow:hidden}
-.brand_con > div{width:33.3333%; text-align:center; display:block;float:left}
-.brand_con > div p{width:70%;margin:0 auto;color:#999;padding-top:15px;font-size:.875em}
+.doctor_con {
+	width: 100%;
+	overflow: hidden
+}
 
-.about_con1{padding:40px 20px; overflow:hidden;border:1px #ffffff solid;border-bottom:none}
-.about_con1 h3{font-size:1.25em;font-weight:normal;padding-bottom:8px;color: #d10f44;}
-.about_con1 p{font-size:.9em;color: #5E5E5E;}
-.shadow{width:100%;height:18px; background:url("shadow1.jpg")/*tpa=http://62943095.cn/case/moru/images/shadow1.jpg*/ no-repeat center;}
+.brand_con>div {
+	width: 33.3333%;
+	text-align: center;
+	display: block;
+	float: left
+}
 
-.left_box{width:460px;padding-right:10px; text-align:right}
-.right_box{width:460px;padding-left:10px; text-align:left}
+.brand_con>div p {
+	width: 70%;
+	margin: 0 auto;
+	color: #999;
+	padding-top: 15px;
+	font-size: .875em
+}
 
-.about_con2{width:746px;margin-top:30px; margin-left:auto;margin-right:auto}
+.about_con1 {
+	padding: 40px 20px;
+	overflow: hidden;
+	border: 1px #ffffff solid;
+	border-bottom: none
+}
 
-.beauty_con{border:1px #eee solid; overflow:hidden;margin-top:20px;}
-.beauty_con li{width:25%;float:left}
-.beauty_con li.noline{border-right:none}
-.beauty_pic{}
-.beauty_text{padding:15px 10px;height:180px; color:#dadada; background:#333; overflow:hidden}
-.beauty_text h3{font-size:1em;font-weight:normal;color:#caa58e; background:url("images/beauty_line.gif")/*tpa=http://62943095.cn/case/moru/images/images/beauty_line.gif*/ top center no-repeat;padding-top:6px; text-align:center; position:relative}
-.beauty_line{width:30px;height:6px;border-bottom:1px #545454 solid; display:block;margin:0 auto}
+.about_con1 h3 {
+	font-size: 1.25em;
+	font-weight: normal;
+	padding-bottom: 8px;
+	color: #d10f44;
+}
 
-.beauty_text p{font-size:12px; padding-top:10px;}
+.about_con1 p {
+	font-size: .9em;
+	color: #5E5E5E;
+}
 
-a.more_beauty{width:148px; text-align:center;font-weight:14px;line-height:28px;color:#c9a58d; text-shadow:1px 1px rgba(0,0,0,.1); border:1px #c9a58d solid; display:block; margin:10px auto;letter-spacing:1px;}
-a.more_beauty:hover{ background:#c9a58d;color:#fff}
+.shadow {
+	width: 100%;
+	height: 18px;
+	background: url("shadow1.jpg")/*tpa=http://62943095.cn/case/moru/images/shadow1.jpg*/
+	no-repeat center;
+}
+
+.left_box {
+	width: 460px;
+	padding-right: 10px;
+	text-align: right
+}
+
+.right_box {
+	width: 460px;
+	padding-left: 10px;
+	text-align: left
+}
+
+.about_con2 {
+	width: 746px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.beauty_con {
+	border: 1px #eee solid;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.beauty_con li {
+	width: 25%;
+	float: left
+}
+
+.beauty_con li.noline {
+	border-right: none
+}
+
+.beauty_pic {}
+
+.beauty_text {
+	padding: 15px 10px;
+	height: 180px;
+	color: #dadada;
+	background: #333;
+	overflow: hidden
+}
+
+.beauty_text h3 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #caa58e;
+	background: url("images/beauty_line.gif")/*tpa=http://62943095.cn/case/moru/images/images/beauty_line.gif*/
+	top center no-repeat;
+	padding-top: 6px;
+	text-align: center;
+	position: relative
+}
+
+.beauty_line {
+	width: 30px;
+	height: 6px;
+	border-bottom: 1px #545454 solid;
+	display: block;
+	margin: 0 auto
+}
+
+.beauty_text p {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+a.more_beauty {
+	width: 148px;
+	text-align: center;
+	font-weight: 14px;
+	line-height: 28px;
+	color: #c9a58d;
+	text-shadow: 1px 1px rgba(0, 0, 0, .1);
+	border: 1px #c9a58d solid;
+	display: block;
+	margin: 10px auto;
+	letter-spacing: 1px;
+}
+
+a.more_beauty:hover {
+	background: #c9a58d;
+	color: #fff
+}
+
+.season_list {
+	width: 1025px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.season_list ul {
+	margin-right: -35px;
+	padding-top: 130px
+}
+
+.season_list li {
+	width: 198px;
+	text-align: center;
+	padding-top: 115px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px #ccc solid;
+	float: left;
+	margin-right: 35px;
+	margin-bottom: 50px;
+	position: relative
+}
+
+.season_list li p {
+	font-size: 13px;
+	padding: 15px 0
+}
+
+.season_list li h3 {
+	color: #caa58e;
+	font-weight: normal;
+	font-size: 1em
+}
+
+.season_list li h3 .en {
+	font-family: 'edwardian';
+	font-size: 2.5em;
+	line-height: 1;
+	color: #caa58e;
+	letter-spacing: 3px
+}
+
+.season_pic {
+	width: 100%;
+	height: 206px;
+	position: absolute;
+	left: 0;
+	top: -103px;
+	text-align: center;
+}
+
+.season_more {
+	color: #caa58e
+}
+
+.season_more:hover {
+	text-decoration: underline
+}
+
+.expert_list {
+	width: 960px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.expert_list ul {
+	margin-right: -20px
+}
+
+.expert_list ul li {
+	width: 452px;
+	border: 1px #ccc solid;
+	padding: 8px;
+	margin-right: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	float: left
+}
+
+.expert_pic {
+	width: 154px;
+	float: left
+}
+
+.expert_con {
+	padding-left: 14px;
+	padding-top: 6px;
+	display: table-cell
+}
+
+.expert_con h4 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #d10f44;
+	line-height: 1.4
+}
+
+.expert_intro {
+	font-size: .75em;
+	padding-right: 20px;
+	padding-top: 16px;
+	padding-bottom: 12px;
+	text-align: left;
+}
+
+a.expert_more {
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	bottom: 8px;
+	background: #666;
+	padding: 3px 20px;
+	margin-right: 10px
+}
+
+.expert_list ul li:hover {
+	border: 1px #d10f44 solid
+}
+
+.expert_list ul li a.expert_more:hover {
+	background: #d10f44
+}
+
+.hot_link_list {
+	width: 840px;
+	padding-bottom: 40px;
+	overflow: hidden;
+	margin: 0 auto
+}
+
+.hot_link_list li {
+	width: 260px;
+	line-height: 30px;
+	font-size: .875em;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left
+}
+
+.hot_link_list li span {
+	background: url("icon_point.jpg")/*tpa=http://62943095.cn/case/moru/images/icon_point.jpg*/
+	no-repeat left center;
+	padding-left: 20px
+}
 
 
-.season_list{width:1025px; margin:0 auto; overflow:hidden}
-.season_list ul{margin-right:-35px;padding-top:130px}
-.season_list li{width:198px; text-align:center;padding-top:115px;padding-bottom:20px;padding-left:15px;padding-right:15px;border:1px #ccc solid;float:left;margin-right:35px;margin-bottom:50px;position:relative}
-.season_list li p{font-size:13px;padding:15px 0}
-.season_list li h3{color:#caa58e;font-weight:normal;font-size:1em}
-.season_list li h3 .en{font-family: 'edwardian';font-size:2.5em;line-height:1;color:#caa58e; letter-spacing:3px}
-.season_pic{width:100%;height:206px; position:absolute;left:0;top:-103px; text-align:center;}
-
-.season_more{color:#caa58e}
-.season_more:hover{ text-decoration:underline}
-
-.expert_list{width:960px;overflow:hidden; margin:0 auto}
-.expert_list ul{margin-right:-20px}
-.expert_list ul li{width:452px;border:1px #ccc solid;padding:8px;margin-right:20px; position:relative;margin-bottom:20px;float:left}
-.expert_pic{width:154px;float:left}
-
-.expert_con{padding-left:14px;padding-top:6px; display: table-cell}
-
-.expert_con h4{font-size:1em;font-weight:normal;color:#d10f44;line-height:1.4}
-.expert_intro{font-size:.75em;padding-right:20px;padding-top:16px;padding-bottom:12px;text-align: left;}
-
-a.expert_more{font-size:14px;color:#fff; position:absolute;bottom:8px; background:#666;padding:3px 20px;margin-right:10px}
-
-.expert_list ul li:hover {border:1px #d10f44 solid}
-.expert_list ul li a.expert_more:hover{background:#d10f44}
-
-.hot_link_list{width:840px;padding-bottom:40px; overflow:hidden; margin:0 auto}
-.hot_link_list li{width:260px;line-height:30px;font-size:.875em;padding-right:10px;padding-left:10px;float:left}
-.hot_link_list li span{background:url("icon_point.jpg")/*tpa=http://62943095.cn/case/moru/images/icon_point.jpg*/ no-repeat left center;padding-left:20px}
 /*.hot_link_list li a{background:url(../images/icon_point.jpg) no-repeat left center;padding-left:20px}*/
 
 
-
-
 /*???????*/
-.hos_con{padding-left:15px;padding-right:15px; overflow:hidden}
-.hos_con > div{width:50%}
-.hos_con > div img{width:100%;max-width:100%}
-.hos_con > div p{padding-top:20px;font-size:.857em;color:#666;text-align:left}
-.pr1{padding-right:20px}
-.pl1{padding-left:20px}
 
-.hos_title{width:92%;font-weight:normal;padding-top:25px;padding-bottom:6px;border-bottom: 1px #d10f44 solid;}
-.hos_title span{width:100%;display:block}
-.hos_title .em{font-size:24px;color: #d10f44;}
-.hos_title .em .en{font-family: 'edwardian';padding-top:10px;font-size:18px;float:right;color:#ead8b6;}
-.hos_title .span{font-size:16px;color:#ead8b6; text-align:right}
-
-.hos_text{width:92%}
-
-.doctor_con li{width:33.3333%; text-align:center;float:left}
-.doctor_con li h3{font-size:1em;color:#d10f44;font-weight:normal;padding:16px 0}
-.doctor_con li h3 span{ display:block;color:#000;}
-
-.item_list{ overflow:hidden}
-.item_list li{width:249px;height:470px;border: 1px #FFD5EC solid; margin-left:17px;margin-right:17px;margin-bottom:30px; display:inline-block;float:left}
-.item_list li img{width:100%;max-width:100%}
-.item_list li h3{font-size:1em;color: #d10f44; position:relative;padding-top:10px;padding-bottom:5px;text-align:center}
-.line{width:58px;height:10px;border-bottom:1px #d10f44 solid; position:absolute;bottom:0;left:50%;margin-left:-29px; z-index:2}
-.item_list li p.cont_text{padding:10px 0;height:99px;font-size:.75em; text-align:left}
-.item_list li.space{margin-bottom:0px}
-
-
-a.details_btn{width:160px;height:33px;line-height:33px;color:#fff; background:#666; margin:0 auto; display:block; text-align:center}
-a.details_btn:hover{ background:#d10f44 }
-
-.custom_list{padding-left:20px;padding-right:20px; overflow:hidden}
-.custom_list ul{margin-right:-20px}
-.custom_list li{width:518px;height:184px;border:1px #ccc solid;margin-right:20px;margin-bottom:20px;padding:15px 10px;float:left}
-.custom_list li:hover{ border-color:#d10f44}
-.custom_pic{width:116px;padding-right:24px; background:url("images/custom_line.gif")/*tpa=http://62943095.cn/case/moru/images/images/custom_line.gif*/ no-repeat right top;float:left}
-.custom_pic p{padding:14px 0 8px 10px}
-
-a.more_btn3{width:96px;line-height:24px;display:block;color:#fff;text-align:center;font-size:.75em; background:#666;}
-a.more_btn3:hover{background:#d10f44}
-
-.custom_con{padding-left:10px;padding-right:5px;display:table-cell}
-.custom_con h4{color:#d10f44;font-size:1.25em;font-weight:normal}
-.custom_con h4.f14{font-size:14px}
-.custom_con p{font-size:.875em;color:#787878}
-
-.custom_text{height:72px;line-height:24px;overflow:hidden}
-/*????????*/
-.charity_con{border:1px #ccc solid; position:relative;margin:2rem 1rem .6rem 1rem}
-.buckle{position:absolute;top:-12px;left:0}
-.buckle img{width:100%}
-.charity_con h2{text-align:center;font-size:18px;padding-top:1.8em;line-height:1}
-
-.charity_list{padding:20px 30px;overflow:hidden}
-.charity_list li{padding:10px 0}
-.charity_list li .num{width:60px;font-family: 'edwardian';font-size:36px;color:#caa58e;float:left}
-.charity_list li .charity_text{ display:table-cell;font-size:14px}
-.charity_list li .charity_text .date{color:#caa58e;font-size:14px;font-weight:normal}
-.fund_con{width:100%}
-.fund_con img{width:100%;max-width:100%}
-.fund_infor{width:100%; background:#dcc2a7;padding:60px 0 40px 0; overflow:hidden}
-.fund_infor p{width:460px;height:44px;line-height:44px;background:#f8f3ed;margin:0 auto 20px auto;}
-.fund_infor p strong{width:90px;height:44px;color:#666;font-weight:normal;padding-left:30px;border-right:1px #dcc2a7 solid;float:left}
-.fund_infor p span{padding-left:30px;padding-right:30px; float:left}
-
-@media screen and (max-width:1024px){
-.left_box,
-.right_box{width:360px}
-.pb60{padding-bottom:40px}
-.pb100{padding-bottom:80px}
-.pb110{padding-bottom:95px}
-.hos_con > div p{font-size:.75em}
-
-.custom_list li{width:428px}
-
-.season_list{width:960px}
-.season_list ul{margin-right:-12px;padding-top:130px}
-.season_list li{width:199px; text-align:center;padding-top:115px;padding-bottom:20px;padding-left:15px;padding-right:15px;border:1px #ccc solid;float:left;margin-right:12px;margin-bottom:50px;position:relative}
-
-
+.hos_con {
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden
 }
 
-.hos_con > div p{
+.hos_con>div {
+	width: 50%
+}
+
+.hos_con>div img {
+	width: 100%;
+	max-width: 100%
+}
+
+.hos_con>div p {
+	padding-top: 20px;
+	font-size: .857em;
+	color: #666;
+	text-align: left
+}
+
+.pr1 {
+	padding-right: 20px
+}
+
+.pl1 {
+	padding-left: 20px
+}
+
+.hos_title {
+	width: 92%;
+	font-weight: normal;
+	padding-top: 25px;
+	padding-bottom: 6px;
+	border-bottom: 1px #d10f44 solid;
+}
+
+.hos_title span {
+	width: 100%;
+	display: block
+}
+
+.hos_title .em {
+	font-size: 24px;
+	color: #d10f44;
+}
+
+.hos_title .em .en {
+	font-family: 'edwardian';
+	padding-top: 10px;
+	font-size: 18px;
+	float: right;
+	color: #ead8b6;
+}
+
+.hos_title .span {
+	font-size: 16px;
+	color: #ead8b6;
+	text-align: right
+}
+
+.hos_text {
+	width: 92%
+}
+
+.doctor_con li {
+	width: 33.3333%;
+	text-align: center;
+	float: left
+}
+
+.doctor_con li h3 {
+	font-size: 1em;
+	color: #d10f44;
+	font-weight: normal;
+	padding: 16px 0
+}
+
+.doctor_con li h3 span {
+	display: block;
+	color: #000;
+}
+
+.item_list {
+	overflow: hidden
+}
+
+.item_list li {
+	width: 249px;
+	height: 470px;
+	border: 1px #FFD5EC solid;
+	margin-left: 17px;
+	margin-right: 17px;
+	margin-bottom: 30px;
+	display: inline-block;
+	float: left
+}
+
+.item_list li img {
+	width: 100%;
+	max-width: 100%
+}
+
+.item_list li h3 {
+	font-size: 1em;
+	color: #d10f44;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center
+}
+
+.line {
+	width: 58px;
+	height: 10px;
+	border-bottom: 1px #d10f44 solid;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -29px;
+	z-index: 2
+}
+
+.item_list li p.cont_text {
+	padding: 10px 0;
+	height: 99px;
+	font-size: .75em;
+	text-align: left
+}
+
+.item_list li.space {
+	margin-bottom: 0px
+}
+
+a.details_btn {
+	width: 160px;
+	height: 33px;
+	line-height: 33px;
+	color: #fff;
+	background: #666;
+	margin: 0 auto;
+	display: block;
+	text-align: center
+}
+
+a.details_btn:hover {
+	background: #d10f44
+}
+
+.custom_list {
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden
+}
+
+.custom_list ul {
+	margin-right: -20px
+}
+
+.custom_list li {
+	width: 518px;
+	height: 184px;
+	border: 1px #ccc solid;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	float: left
+}
+
+.custom_list li:hover {
+	border-color: #d10f44
+}
+
+.custom_pic {
+	width: 116px;
+	padding-right: 24px;
+	background: url("images/custom_line.gif")/*tpa=http://62943095.cn/case/moru/images/images/custom_line.gif*/
+	no-repeat right top;
+	float: left
+}
+
+.custom_pic p {
+	padding: 14px 0 8px 10px
+}
+
+a.more_btn3 {
+	width: 96px;
+	line-height: 24px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-size: .75em;
+	background: #666;
+}
+
+a.more_btn3:hover {
+	background: #d10f44
+}
+
+.custom_con {
+	padding-left: 10px;
+	padding-right: 5px;
+	display: table-cell
+}
+
+.custom_con h4 {
+	color: #d10f44;
+	font-size: 1.25em;
+	font-weight: normal
+}
+
+.custom_con h4.f14 {
+	font-size: 14px
+}
+
+.custom_con p {
+	font-size: .875em;
+	color: #787878
+}
+
+.custom_text {
+	height: 72px;
+	line-height: 24px;
+	overflow: hidden
+}
+
+
+/*????????*/
+
+.charity_con {
+	border: 1px #ccc solid;
+	position: relative;
+	margin: 2rem 1rem .6rem 1rem
+}
+
+.buckle {
+	position: absolute;
+	top: -12px;
+	left: 0
+}
+
+.buckle img {
+	width: 100%
+}
+
+.charity_con h2 {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 1.8em;
+	line-height: 1
+}
+
+.charity_list {
+	padding: 20px 30px;
+	overflow: hidden
+}
+
+.charity_list li {
+	padding: 10px 0
+}
+
+.charity_list li .num {
+	width: 60px;
+	font-family: 'edwardian';
+	font-size: 36px;
+	color: #caa58e;
+	float: left
+}
+
+.charity_list li .charity_text {
+	display: table-cell;
+	font-size: 14px
+}
+
+.charity_list li .charity_text .date {
+	color: #caa58e;
+	font-size: 14px;
+	font-weight: normal
+}
+
+.fund_con {
+	width: 100%
+}
+
+.fund_con img {
+	width: 100%;
+	max-width: 100%
+}
+
+.fund_infor {
+	width: 100%;
+	background: #dcc2a7;
+	padding: 60px 0 40px 0;
+	overflow: hidden
+}
+
+.fund_infor p {
+	width: 460px;
+	height: 44px;
+	line-height: 44px;
+	background: #f8f3ed;
+	margin: 0 auto 20px auto;
+}
+
+.fund_infor p strong {
+	width: 90px;
+	height: 44px;
+	color: #666;
+	font-weight: normal;
+	padding-left: 30px;
+	border-right: 1px #dcc2a7 solid;
+	float: left
+}
+
+.fund_infor p span {
+	padding-left: 30px;
+	padding-right: 30px;
+	float: left
+}
+
+@media screen and (max-width:1024px) {
+	.left_box,
+	.right_box {
+		width: 360px
+	}
+	.pb60 {
+		padding-bottom: 40px
+	}
+	.pb100 {
+		padding-bottom: 80px
+	}
+	.pb110 {
+		padding-bottom: 95px
+	}
+	.hos_con>div p {
+		font-size: .75em
+	}
+	.custom_list li {
+		width: 428px
+	}
+	.season_list {
+		width: 960px
+	}
+	.season_list ul {
+		margin-right: -12px;
+		padding-top: 130px
+	}
+	.season_list li {
+		width: 199px;
+		text-align: center;
+		padding-top: 115px;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 1px #ccc solid;
+		float: left;
+		margin-right: 12px;
+		margin-bottom: 50px;
+		position: relative
+	}
+}
+
+.hos_con>div p {
 	text-align: justify;
 }
 
-.item_list li p.wek_cont_text{
+.item_list li p.wek_cont_text {
 	height: 40px;
 	text-align: center;
 }
-.wek_item_list li{
+
+.wek_item_list li {
 	height: 420px;
 }
 
-a.details_btn{
-					width: 100%;
-					max-width: 150px;
-				}
+a.details_btn {
+	width: 100%;
+	max-width: 150px;
+}
