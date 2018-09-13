@@ -9,29 +9,10 @@
 
 		<link href="images/base.css" rel="stylesheet" type="text/css">
 		<link href="images/common.css" rel="stylesheet" type="text/css">
-
-		<script src="js/jquery1.11.1.js"></script>
-
-		<script src="js/jquery-migrate-1.2.1.min.js"></script>
-		<script>
-			$(function() {
-				var search_web = $('form[name=searchs]');
-				search_web.submit(function() {
-					var ok = false;
-					var message = $.trim($('form[name=searchs] input[name=keywords]').val());
-					// alert(message);
-					if(message == '' || message == 'search...') {
-						return false;
-					} else {
-						return true;
-					}
-					return false;
-				})
-			})
-		</script>
+		<link rel="stylesheet" type="text/css" href="css/gxh_style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
-		<script src="js/jquery1.11.1.js"></script>
+		<script type="text/javascript" src="images/jquery-1.10.1.min.js"></script>
 		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>

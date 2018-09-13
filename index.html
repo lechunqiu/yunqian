@@ -7,51 +7,12 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title>上海沃尔卡网有限公司</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-
 		<link href="images/base.css" rel="stylesheet" type="text/css">
-		<link href="images/common.css" rel="stylesheet" type="text/css">
-
-		<script type="text/javascript" src="images/jquery-1.10.1.min.js"></script>
-
-		<script>
-			$(function() {
-				var search_web = $('form[name=searchs]');
-				search_web.submit(function() {
-					var ok = false;
-					var message = $.trim($('form[name=searchs] input[name=keywords]').val());
-					// alert(message);
-					if(message == '' || message == 'search...') {
-						return false;
-					} else {
-						return true;
-					}
-					return false;
-				})
-			})
-		</script>
-
-		<link href="images/index.css" rel="stylesheet" type="text/css">
-		<link href="images/flip.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="images/jquery.SuperSlide.2.1.1.js" /></script>
-		<!--ad切换js-->
-		<script type="text/javascript">
-			$(function() {
-				//banner
-				jQuery(".KV_box").slide({
-					titCell: ".point_nav ul",
-					mainCell: ".kv_con ul",
-					effect: "fold",
-					autoPlay: true,
-					autoPage: true,
-					trigger: "click",
-					interTime: 5000
-				});
-			})
-		</script>
-
+		<link href="images/common.css" rel="stylesheet" type="text/css">		
+		<link rel="stylesheet" type="text/css" href="css/gxh_style.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
-		<script src="js/jquery1.11.1.js"></script>
+		<script type="text/javascript" src="images/jquery-1.10.1.min.js"></script>
 		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>
@@ -70,9 +31,8 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="mob_zg">
-			
 		</div>
 		<div class="mob_nav">
 			<span class="close_mob_nav glyphicon glyphicon-remove"></span>
@@ -118,7 +78,7 @@
         -->
 		<!-- head中需要引入的部分 begin -->
 		<link href="css/lanrenzhijia.css" rel="stylesheet" type="text/css">
-
+		
 		<script src="js/jquery1.11.1.js"></script>
 
 		<script src="js/jquery-migrate-1.2.1.min.js"></script>
@@ -130,17 +90,19 @@
 		<script type="text/javascript" src="js/simpleSlider.js"></script>
 
 		<script type="text/javascript" src="js/backstretch.js"></script>
-
+		
+		<!--描述：首页banner图片在custom.js文件中引用-->
 		<script type="text/javascript" src="js/custom.js"></script>
 		<!-- head中需要引入的部分end -->
-		<!-- 代码 begin -->
-
+		<!-- 首页banner代码 begin -->
+		
+		
 		<div class='pagewrap' id="cont_1">
 			<div class='pageblock' id='fullscreen'>
 				<div class='slider'>
-					<div class='slide' id="first"> </div>
+					<div class='slide' id="first"></div>
 					<div class='slide' id="sec"></div>
-					<div class='slide' id="thirth"></div>
+					<div class='slide' id="thirth"></div>					
 				</div>
 			</div>
 		</div>
@@ -400,54 +362,7 @@
 			<!--案例展示 Brand Projects start-->
 
 			<style type="text/css">
-				.alzs_box {
-					margin-bottom: 20px;
-				}
-				
-				.alzs_box a {
-					display: block;
-					background: #efefef;
-					border: 10px #efefef solid;
-				}
-				
-				.alzs_box img {
-					width: 100%;
-					max-width: 100%;
-				}
-				
-				.alzs_box a h4 {
-					position: absolute;
-					right: 26px;
-					color: #999;
-					bottom: 20px;
-					font-size: .875em;
-					text-align: right;
-					font-weight: normal;
-				}
-				
-				.alzs_box a .en {
-					font-family: 'edwardian';
-					font-size: 3.5em;
-					line-height: 1;
-					color: #ff4747;
-				}
-				
-				.alzs_box a:hover {
-					background-color: #d10f44;
-					border-top-color: #d10f44;
-					border-right-color: #d10f44;
-					border-bottom-color: #d10f44;
-					border-left-color: #d10f44;
-					text-decoration: none;
-				}
-				
-				.alzs_box a:hover h4 {
-					color: #fff
-				}
-				
-				.alzs_box a:hover .en {
-					color: #fff
-				}
+
 			</style>
 			<div class="main_box pb_none container" id="cont_5">
 
@@ -561,70 +476,11 @@
 
 					</div>
 
-					<!--<div class="beauty_nav">
-						<ul>
-							<li>
-								<a href="#" class="transition2">
-									<span><img alt="综合实力雄厚" src="images/beauty_nav_icon.png"  width="80" height="80"></span>
-									<h4 title="综合实力雄厚">综合实力雄厚</h4>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="transition">
-									<span><img alt="专注养护事业" src="images/beauty_nav_icon-02.png"  width="80" height="80"></span>
-									<h4 title="专注养护事业">专注养护事业</h4>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="transition">
-									<span><img alt="产品系列齐全" src="images/beauty_nav_icon-05.png"  width="80" height="80"></span>
-									<h4 title="产品系列齐全">产品系列齐全</h4>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="transition">
-									<span><img alt="品质至臻" src="images/beauty_nav_icon-08.png"  width="80" height="80"></span>
-									<h4 title="品质至臻">品质至臻</h4>
-								</a>
-							</li>
-
-						</ul>
-					</div>-->
+					
 				</div>
 			</div>
-			<script type="text/javascript">
-				$(function() {
-					var ys_wid = $('.ys_box a').width();
-					$('.ys_box a').height(ys_wid);
-					$(window).resize(function() {
-						var ys_wid = $('.ys_box a').width();
-						$('.ys_box a').height(ys_wid);
-					})
-				})
-			</script>
-			<!--品牌优势 Eight Beauty Center end-->
 
-			<style type="text/css">
-				.hzpp_box {
-					position: relative;
-				}
-				
-				.main_box {
-					min-width: auto;
-				}
-				
-				.imglist_w {
-					width: 100%;
-				}
-				
-				.cont_box p.own_ljgd {
-					margin-top: 70px;
-				}
-				
-				.cont_box p.own_ljgd a.more:hover {
-					text-decoration: none;
-				}
-			</style>
+			<!--品牌优势 Eight Beauty Center end-->
 
 			<!--友情链接 Global Cooperation start-->
 			<div class="main_box cont_bg1" id="cont_7">
@@ -702,7 +558,6 @@
 						},
 						direction: 'left'
 					});
-
 					//
 					//鼠标滚轮事件
 					//
@@ -902,8 +757,6 @@
 			</div>
 			<!--底部 bottom end-->
 		</div>
-		
-		
 
 	</body>
 

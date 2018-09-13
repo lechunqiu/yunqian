@@ -513,6 +513,9 @@ div.cont_box2 h2 {
 	display: block;
 	color: #666666;
 	padding: 10px 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
 
@@ -586,4 +589,179 @@ div.cont_box2 h2 {
 .cpzs_box_con h3 {
 	padding-left: 6px;
 	padding-right: 6px;
+}
+
+div.ad_cont_box {
+	width: 78%;
+	float: left;
+}
+
+div.cont_box2 {
+	margin-left: 10px;
+	padding: 10px;
+	width: 18%;
+	margin-left: 20px;
+	height: 500px;
+	float: left;
+	margin-top: 119px;
+}
+
+div.cont_box2 h2 {
+	border-bottom: 1px solid #333;
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+
+.ad_expert {
+	height: 330px;
+	overflow: hidden;
+}
+
+.ad_expert .ad_expert_info a {
+	color: #666;
+	font-size: 14px;
+	margin: 2px;
+	margin-right: 4px;
+}
+
+.ad_expert_info {
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.ad_expert .ad_expert_info a:hover {
+	/*color: #f60;*/
+	color: #caa58e;
+}
+
+.article_list {
+	padding-left: 5px;
+}
+
+.article_list li {
+	font-size: 14px;
+	border-bottom: 1px #ccc dashed;
+}
+
+.article_list li a {
+	display: block;
+	padding: 6px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+div.own_cont_box2 {
+	width: 100%;
+	padding: 0;
+	height: auto;
+	padding-bottom: 30px;
+	margin-left: 0;
+	margin-top: 110px;
+}
+
+.prne_title {
+	max-width: 168px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.vertical_middle {
+	vertical-align: middle;
+}
+
+.alzs_box {
+	margin-bottom: 20px;
+}
+
+.alzs_box a {
+	display: block;
+	background: #efefef;
+	border: 10px #efefef solid;
+}
+
+.alzs_box img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.alzs_box a h4 {
+	position: absolute;
+	right: 26px;
+	color: #999;
+	bottom: 20px;
+	font-size: .875em;
+	text-align: right;
+	font-weight: normal;
+}
+
+.alzs_box a .en {
+	font-family: 'edwardian';
+	font-size: 3.5em;
+	line-height: 1;
+	color: #ff4747;
+}
+
+.alzs_box a:hover {
+	background-color: #d10f44;
+	border-top-color: #d10f44;
+	border-right-color: #d10f44;
+	border-bottom-color: #d10f44;
+	border-left-color: #d10f44;
+	text-decoration: none;
+}
+
+.alzs_box a:hover h4 {
+	color: #fff
+}
+
+.alzs_box a:hover .en {
+	color: #fff
+}
+
+.hzpp_box {
+	position: relative;
+}
+
+.main_box {
+	min-width: auto;
+}
+
+.imglist_w {
+	width: 100%;
+}
+
+.cont_box p.own_ljgd {
+	margin-top: 70px;
+}
+
+.cont_box p.own_ljgd a.more:hover {
+	text-decoration: none;
+}
+
+.new_box_con h3 {
+	font-weight: normal;
+	padding-top: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 22px;
+	font-size: 18px;
+	color: #d10f44;
+	overflow: hidden;
+	position: relative;
+	height: 40px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.new_box_con {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a.news_btn{
+	position: relative;
 }

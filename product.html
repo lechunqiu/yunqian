@@ -9,29 +9,10 @@
 
 		<link href="images/base.css" rel="stylesheet" type="text/css">
 		<link href="images/common.css" rel="stylesheet" type="text/css">
-
-		<script src="js/jquery1.11.1.js"></script>
-
-		<script src="js/jquery-migrate-1.2.1.min.js"></script>
-		<script>
-			$(function() {
-				var search_web = $('form[name=searchs]');
-				search_web.submit(function() {
-					var ok = false;
-					var message = $.trim($('form[name=searchs] input[name=keywords]').val());
-					// alert(message);
-					if(message == '' || message == 'search...') {
-						return false;
-					} else {
-						return true;
-					}
-					return false;
-				})
-			})
-		</script>
+		<link rel="stylesheet" type="text/css" href="css/gxh_style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/own_style.css" />
-		<script src="js/jquery1.11.1.js"></script>
+		<script type="text/javascript" src="images/jquery-1.10.1.min.js"></script>
 		<script src="js/own.js" type="text/javascript" charset="utf-8"></script>
 
 	</head>
@@ -327,158 +308,8 @@
 						</div>		
 					</div>
 				</div>
-
-				
-
 			</div>
 
-			<!--<div class="main_box pb_none" id="cont_3">
-				<div class="cont_box cont_line">
-					<h2 class="title">
-
-           <span class="en">Software Maintenance </span>
-                            <span class="ch"> 软件方案</span>
-                     
-      </h2>
-					<div class="item_list pt20">
-						<ul>
-							<li>
-
-								<a href="product1.html"><img src="images/pp1.jpg"></a>
-								<h3 title=" QM-011物联方案">
-               QM-011物联方案             <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp3.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案         <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp4.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案              <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp5.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案             <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="main_box pb_none" id="cont_3">
-				<div class="cont_box cont_line">
-					<h2 class="title">
-
-           <span class="en">Characteristic Service </span>
-                            <span class="ch">特色服务</span>
-                      
-      </h2>
-					<div class="item_list pt20">
-						<ul>
-							<li>
-
-								<a href="product1.html"><img src="images/pp1.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案              <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp3.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案            <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp4.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案            <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-
-							<li>
-
-								<a href="product1.html"><img src="images/pp5.jpg"></a>
-								<h3 title="QM-011物联方案">
-               QM-011物联方案          <span class="line"></span>
-            </h3>
-								<p class="cont_text">
-									“物联网 [1]  概念”是在“互联网概念”的基础上，将其用户端延伸和扩展到任何物品
-									与物品之。
-								</p>
-								<p>
-									<a href="product1.html" class="details_btn">查看详情</a>
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>-->
 
 			<script type="text/javascript" src="images/main.js"></script>
 			<script type="text/javascript" src="images/nav.js"></script>

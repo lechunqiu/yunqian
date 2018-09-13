@@ -89,3 +89,10 @@ a.next_btn:hover{background-position:-56px -136px}
 	
 	.star_list li{width:231px}
 }
+
+
+@media only screen  and (max-width: 768px) {
+	.img_box{
+		padding: 6px;
+	}	
+}

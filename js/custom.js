@@ -34,6 +34,7 @@ $(document).ready(function(){
     $(".slide#first").backstretch("images/banner1.jpg");
     $(".slide#sec").backstretch("images/banner2.jpg");
     $(".slide#thirth").backstretch("images/banner4.jpg");
+    
 //  $(".slide#fourth").backstretch("images/bg5.jpg");
 
     $('.slide .backstretch img').on('dragstart', function(event) { event.preventDefault(); });
